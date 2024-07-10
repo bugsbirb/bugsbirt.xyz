@@ -40,3 +40,29 @@ body {
   width: auto;
   }
 }
+
+h1, h2, h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+  }
+
+  h1, h2, h3 {
+      font-size: 20px;
+  }
+
+  p {
+      font-size: 14px;
+  }
+}
