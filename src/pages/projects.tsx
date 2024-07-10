@@ -10,7 +10,7 @@ export default function Projects() {
                 <div className="w-full max-w-md bg-grey-700 border border-gray-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-16 mx-4">
 
                     <div className="flex flex-col items-center pb-10 pt-6">
-                        <img className="w-32 h-32 mb-4 rounded-full shadow-lg" src="/astrobirb.png" alt="Bonnie image"/>
+                        <img className="w-32 h-32 mb-4 rounded-full shadow-lg" src="/astrobirb.gif" alt="Bonnie image"/>
                         <h5 className="mb-2 text-2xl font-medium text-white dark:text-white">Astro Birb</h5>
                         <span className="text-lg text-gray-500 dark:text-gray-400">A nice staff management</span>
                         <div className="flex mt-6">
