@@ -11,29 +11,29 @@ export default function Home() {
           <img
             src="/bugsbirt.png"
             alt="bugs"
-            className="w-64 h-64 mb-10 rounded-full"
+            className="w-48 h-48 sm:w-64 sm:h-64 mb-4 sm:mb-10 rounded-full"
           />
           <section>
             <h1 className="text-5xl sm:text-8xl font-bold text-white">
               bugsbirt
             </h1>
-            <p className="mt-6 text-2xl sm:text-3xl text-gray-300">
+            <p className="mt-4 sm:mt-6 text-xl sm:text-3xl text-gray-300">
               I own an army of birds
             </p>
-            <div className="mt-10 flex flex-col sm:flex-row sm:space-x-6 justify-center font-bold">
+            <div className="mt-6 sm:mt-10 flex flex-col sm:flex-row justify-center font-bold">
               <a
                 href="/projects"
                 className="cursor-pointer"
               >
-                <button className="px-8 py-4 sm:px-10 sm:py-5 bg-indigo-600 text-white rounded-lg shadow-lg hover:bg-indigo-700 transition-colors">
+                <button className="w-full sm:w-auto px-6 py-3 sm:px-8 sm:py-4 bg-indigo-600 text-white rounded-lg shadow-lg hover:bg-indigo-700 transition-colors mb-4 sm:mb-0">
                   Projects
                 </button>
               </a>
               <a
                 href="https://ko-fi.com/bugsbirt"
-                className="cursor-pointer mt-4 sm:mt-0"
+                className="cursor-pointer sm:ml-4"
               >
-                <button className="px-8 py-4 sm:px-10 sm:py-5 bg-transparent border border-white text-white rounded-lg shadow-lg hover:bg-gray-800 transition-colors">
+                <button className="w-full sm:w-auto px-6 py-3 sm:px-8 sm:py-4 bg-transparent border border-white text-white rounded-lg shadow-lg hover:bg-gray-800 transition-colors">
                   Donate
                 </button>
               </a>
