@@ -8,8 +8,8 @@ export default function Home() {
       <div className="flex-grow flex flex-col items-center justify-center px-4">
         <div className="flex flex-col items-center">
           <img
-            src="https://cdn.discordapp.com/avatars/795743076520820776/0e0723ce46265094ea7dda085822c6a0.webp?size=1024&format=webp&width=0&height=256"
-            alt="Astro Birb Logo"
+            src="/bugsbirt.png"
+            alt="bugs"
             className="w-64 h-64 mb-10 rounded-full"
           />
           <section className="text-center">

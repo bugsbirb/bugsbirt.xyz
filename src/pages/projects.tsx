@@ -10,7 +10,7 @@ export default function Projects() {
                 <div className="w-full max-w-md bg-grey-700 border border-gray-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-16 mx-4">
 
                     <div className="flex flex-col items-center pb-10 pt-6">
-                        <img className="w-32 h-32 mb-4 rounded-full shadow-lg" src="https://cdn.discordapp.com/avatars/1113245569490616400/a_c2f162676b5a2be3a835f01fe19c0559.gif?size=1024&width=0&height=256" alt="Bonnie image"/>
+                        <img className="w-32 h-32 mb-4 rounded-full shadow-lg" src="/astrobirb.png" alt="Bonnie image"/>
                         <h5 className="mb-2 text-2xl font-medium text-white dark:text-white">Astro Birb</h5>
                         <span className="text-lg text-gray-500 dark:text-gray-400">A nice staff management</span>
                         <div className="flex mt-6">
@@ -24,7 +24,7 @@ export default function Projects() {
                 <div className="w-full max-w-md bg-grey-700 border border-gray-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-16 mx-4">
 
                     <div className="flex flex-col items-center pb-10 pt-6">
-                        <img className="w-32 h-32 mb-4 rounded-full shadow-lg" src="https://cdn.discordapp.com/icons/1254017539294498887/b858ceca5406929fb4a9d46d26bff079.webp?size=1024&format=webp&width=0&height=256" alt="Bonnie image"/>
+                        <img className="w-32 h-32 mb-4 rounded-full shadow-lg" src="/birbmoney.png" alt="Bonnie image"/>
                         <h5 className="mb-2 text-2xl font-medium text-white dark:text-white">Bugsy's Commissions</h5>
                         <span className="text-lg text-gray-500 dark:text-gray-400">Sometimes I like to sell bot stuff</span>
                         <div className="flex mt-6">
