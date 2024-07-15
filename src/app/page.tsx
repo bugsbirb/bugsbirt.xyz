@@ -1,19 +1,19 @@
 "use client"
 import React from "react";
 import { motion } from "framer-motion";
-import { useRouter } from "next/navigation";
+
 import Nav from "@/components/navbar";
 
-const languages = [
-  { name: "Python", icon: "/python.svg" },
-  { name: "TypeScript", icon: "/typescript.svg" },
-  { name: "HTML", icon: "/html.svg" },
-  { name: "CSS", icon: "/css.svg" },
-];
 
 const Home = () => {
-  const router = useRouter();
 
+
+  const languages = [
+    { name: "Python", icon: "/python.svg" },
+    { name: "TypeScript", icon: "/typescript.svg" },
+    { name: "HTML", icon: "/html.svg" },
+    { name: "CSS", icon: "/css.svg" },
+  ];
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-black to-indigo-800">
       <Nav />

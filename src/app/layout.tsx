@@ -1,6 +1,6 @@
 "use client";
 import "./globals.css";
-import 'flowbite';
+
 import React, { ReactNode } from 'react';
 
 interface RootLayoutProps {
@@ -11,13 +11,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="en">
       <head>
       <meta charSet="UTF-8" />
-        <link rel="icon" type="image/png" href="/bugsbirt.png" className="h-8 rounded-lg"/>
+        <link rel="icon" type="image/png" href="/bugsbirt.png"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
-        <link rel="stylesheet" href="../path/to/flowbite/dist/flowbite.min.css" />
         <title>bugsbirt</title>
       </head>
       <body>
+          <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
 
           {children}
       </body>

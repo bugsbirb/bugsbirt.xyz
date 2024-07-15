@@ -1,7 +1,7 @@
 "use client"
 import { motion } from "framer-motion";
-import { useRouter } from "next/navigation";
 import Nav from "@/components/navbar";
+
 
 const cardVariants = {
     hidden: { opacity: 0, y: 50 },
@@ -10,7 +10,6 @@ const cardVariants = {
 };
 
 export default function Projects() {
-    const router = useRouter();
 
     return (
         <div className="overflow-auto bg-gradient-to-br from-black to-indigo-800 min-h-screen">
@@ -28,7 +27,7 @@ export default function Projects() {
                             <img className="w-32 h-32 mb-4 rounded-full shadow-lg" src="/astrobirb.gif" alt="Astro Birb"/>
                             <h5 className="mb-2 text-xl font-medium text-white">Astro Birb</h5>
                             <span className="text-lg text-gray-500">A nice staff management</span>
-                            <div className="flex mt-4 justify-center sm:justify-start"> {/* Center buttons on mobile, start on desktop */}
+                            <div className="flex mt-4 justify-center sm:justify-start"> 
                                 <a href="https://discord.gg/birb" className="inline-flex items-center px-4 py-2 text-base font-medium text-center text-white bg-indigo-500 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">Join</a>
                                 <a href="https://astrobirb.dev" className="py-2 px-4 ml-2 text-base font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">Website</a>
                             </div>
