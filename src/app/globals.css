@@ -102,3 +102,21 @@ p {
   background: #cccccc4c;
 }
 
+
+.hi {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+@media (min-width: 1024px) {
+  .hi {
+    padding-top: -30px; /* 16px */;
+    padding-bottom: -30px; /* 16px */;
+  }
+}
+
+@media (min-width: 640px) {
+  .hi {
+    padding-top: -30px; /* 16px */;
+    padding-bottom: -30px; /* 16px */;
+  }
+}

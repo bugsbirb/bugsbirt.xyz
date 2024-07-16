@@ -30,11 +30,10 @@ export default function Socials() {
     ];
 
     return (
-        <div className="overflow-auto bg-gradient-to-br from-black to-indigo-800 min-h-screen">
+        <div className="hi overflow-auto bg-gradient-to-br from-black to-indigo-800 min-h-screen">
             <Nav />
-            <div className="flex flex-col items-center justify-center py-8 px-4 mx-auto max-w-screen-xl h-full" /> {/* POV: Me being lazy and not fxing css problems */}
-
-            <div className="overflow-auto flex flex-col items-center justify-center min-h-screen space-y-6 px-4">
+            
+            <div className=" sm:overflow-auto flex flex-col items-center justify-center min-h-screen space-y-3 px-4">
             
                 {socials.map((social) => (
                     <a 
