@@ -8,7 +8,7 @@ export default function landing() {
     };
     return(
         <main>
-                    <section className="flex flex-col items-center justify-center py-8 px-4 mx-auto max-w-screen-xl">
+          <section className="flex flex-col items-center justify-center py-8 px-4 mx-auto max-w-screen-xl">
           <div className="text-center">
             <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl xl:text-7xl dark:text-white">
               👋 hi am bugsbirt
