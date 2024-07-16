@@ -94,3 +94,11 @@ p {
 }
 
 
+.hand {
+  cursor: pointer;
+  
+}
+.yourmum:hover {
+  background: #cccccc4c;
+}
+

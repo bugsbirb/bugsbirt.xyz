@@ -3,10 +3,13 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import Nav from "@/components/navbar";
-
+import { useRouter } from "next/navigation";
 
 const Home = () => {
-
+  const router = useRouter();
+  const push = (page: any) => {
+    router.push(page);
+  };
 
   const languages = [
     { name: "Python", icon: "/python.svg" },
@@ -14,11 +17,12 @@ const Home = () => {
     { name: "HTML", icon: "/html.svg" },
     { name: "CSS", icon: "/css.svg" },
   ];
+
   return (
+    
     <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-black to-indigo-800">
       <Nav />
       <div className="flex flex-col items-center justify-center py-8 px-4 mx-auto max-w-screen-xl h-full">
-
       </div >
       <div className="flex flex-col items-center justify-center py-8 px-4 mx-auto max-w-screen-xl h-full">
         <section className="flex flex-col items-center justify-center py-8 px-4 mx-auto max-w-screen-xl">
@@ -31,8 +35,8 @@ const Home = () => {
             </p>
             <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
               <a
-                href="/projects"
-                className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-indigo-600 hover:bg-indigo-500 focus:ring-4 focus:ring-blue-300 dark:focus:ring-indigo-900"
+                onClick={() => push("/projects")}
+                className="hand inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-indigo-600 hover:bg-indigo-500 focus:ring-4 focus:ring-blue-300 dark:focus:ring-indigo-900"
               >
                 View Projects
                 <svg
@@ -69,6 +73,9 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <section className="py-8 px-4 mx-auto max-w-screen-xl">
+
+        </section>
 
         <section className="py-8 px-4 mx-auto max-w-screen-xl">
           <div className="glassy rounded-lg overflow-hidden shadow-lg">
@@ -90,6 +97,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+
       </div>
     </main>
   );
