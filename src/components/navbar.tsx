@@ -3,8 +3,7 @@ import React from "react";
 import { useRouter } from 'next/navigation';
 export default function Nav() {
   const router = useRouter(); 
-  //@ts-ignore
-  const push = (page) => {
+  const push = (page: any) => {
     router.push(page);
   };
  
