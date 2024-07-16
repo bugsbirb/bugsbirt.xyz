@@ -74,10 +74,6 @@ const Home = () => {
           </div>
         </section>
         <section className="py-8 px-4 mx-auto max-w-screen-xl">
-
-        </section>
-
-        <section className="py-8 px-4 mx-auto max-w-screen-xl">
           <div className="glassy rounded-lg overflow-hidden shadow-lg">
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 p-6">
               {languages.map((language, index) => (
