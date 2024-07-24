@@ -14,12 +14,12 @@ const nextConfig = {
             permanent: true,             
           },
           {
-            source: 'ko-fi', 
+            source: '/ko-fi', 
             destination: 'https://ko-fi.com/bugsbirt',
             permanent: true,      
           },
           {
-            source: 'hitman', 
+            source: '/hitman', 
             destination: 'https://bugsbirt.xyz',
             permanent: true,              
           },
