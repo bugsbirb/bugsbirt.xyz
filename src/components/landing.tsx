@@ -11,7 +11,7 @@ export default function landing() {
           <section className="flex flex-col items-center justify-center py-8 px-4 mx-auto max-w-screen-xl">
           <div className="text-center">
             <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl xl:text-7xl dark:text-white">
-              👋 hi am bugsbirt
+              👋 hi am bugsbirb
             </h1>
             <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
               I like creating things like websites and bots and whatever
