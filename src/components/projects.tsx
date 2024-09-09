@@ -25,23 +25,6 @@ export default function Projects() {
                             </div>
                         </div>
                     </motion.div>
-
-                    <motion.div
-                        className="glassy w-full max-w-md bg-grey-700 border rounded-lg shadow mt-8 sm:mt-16 mx-2 mb-4 sm:mb-0"
-                        initial="hidden"
-                        animate="visible"
-                        whileHover="hover"
-                        variants={cardanim}
-                    >
-                        <div className="flex flex-col items-center pb-10 pt-6">
-                            <img className="w-32 h-32 mb-4 rounded-full shadow-lg" src="/birbmoney.png" alt="Bugsy's Commissions"/>
-                            <h5 className="mb-2 text-xl font-medium text-white">Bugsy's Commissions</h5>
-                            <span className="text-lg text-gray-200">Sometimes I like to sell bot stuff</span>
-                            <div className="flex mt-4 justify-center sm:justify-start"> 
-                                <a href="https://discord.gg/V8UrYsX9u6" className="inline-flex items-center px-4 py-2 text-base font-medium text-center text-white bg-indigo-500 rounded-lg hover:bg-indigo-600 focus:ring-4 focus:outline-none focus:ring-blue-300">Join</a>
-                            </div>
-                        </div>
-                    </motion.div> 
                     <motion.div
                         className="glassy w-full max-w-md bg-grey-700 border rounded-lg shadow mt-8 sm:mt-16 mx-2 mb-4 sm:mb-0"
                         initial="hidden"
