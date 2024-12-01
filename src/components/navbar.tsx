@@ -76,15 +76,7 @@ export default function Nav() {
               >
                 Contact
               </a>
-            </li>
-            <li>
-              <a
-                onClick={() => push("/socials")}
-                className="yourmum hand block py-2 px-3 text-gray-300 rounded  md:hover:bg-transparent md:hover:text-indigo-400 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-              >
-                Socials
-              </a>
-            </li>                           
+            </li>                     
           </ul>
   
         </div>
